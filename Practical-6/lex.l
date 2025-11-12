@@ -1,6 +1,3 @@
-//Ayush mahajan
-//23070521027
-
 %{
     #include <stdio.h>
     int line_number = 0;

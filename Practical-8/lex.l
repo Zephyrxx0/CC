@@ -1,5 +1,3 @@
-//Aniruddha Kale 2307021014
-
 %{
 #include <stdio.h>
 #include <string.h>

@@ -1,5 +1,3 @@
-//Ayush Mahajan, 23070521027
-
 %{
     #include <stdio.h>
     #include <stdlib.h>

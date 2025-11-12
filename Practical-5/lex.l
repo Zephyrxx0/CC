@@ -1,6 +1,6 @@
 %{
-#include <stdio.h>                  //Ayush Mahajan
-#include <string.h>                 //23070521027
+#include <stdio.h>                  
+#include <string.h>                 
 
 void decimal_to_hex(int num) {
     char hex[100];

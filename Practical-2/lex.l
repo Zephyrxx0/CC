@@ -1,6 +1,6 @@
 %{
-    #include <stdio.h>           //Ayush Mahajan
-    int comments = 0;            //23070521027
+    #include <stdio.h>          
+    int comments = 0;           
     int keywords = 0;
     int identifiers = 0;
     int words = 0;
