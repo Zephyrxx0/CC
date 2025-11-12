@@ -34,3 +34,13 @@ int main(){
 int yywrap(){
     return 1;
 }
+
+/*
+flex lex.l
+gcc lex.yy.c  -o tokens
+./tokens
+
+> int main() { /* comment */}
+
+(Ctrl + D)
+*/

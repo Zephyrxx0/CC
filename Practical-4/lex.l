@@ -30,3 +30,11 @@ int yywrap(){
 }
 
 
+/*
+flex lex.l
+gcc lex.yy.c  -o convertCase
+./convertCase
+> Test Sentence
+
+(Ctrl + D)
+*/

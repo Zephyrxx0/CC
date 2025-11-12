@@ -18,3 +18,15 @@ int main(){
 int yywrap(){
     return 1;
 }
+
+/*
+flex lex.l
+gcc lex.yy.c  -o findString
+./findString
+
+> string.com (press enter)
+> string (press enter)
+> test.com (press enter)
+
+(Ctrl + D)
+*/

@@ -14,7 +14,7 @@
 ">"     { return GT; }
 "+"     { return PLUS; }
 
-[a-aA-Z][a-aA-Z0-9]* { return IDENTIFIER; }
+[a-zA-Z][a-zA-Z0-9]* { return IDENTIFIER; }
 [0-9]+ { return NUMBER; }
 
 [ \t\n ]+   {/*Skip Whitespace*/}
@@ -26,3 +26,15 @@
 int yywrap(void){
     return 1;
 }
+
+/*
+flex lex.l
+bison -d parser.y
+
+gcc parser.tab.c lex.yy.c -o for_loop -lfl
+
+./for_loop
+> for (i = 0; i < 5; i = i + 1) {}
+
+(Ctrl + D)
+*/

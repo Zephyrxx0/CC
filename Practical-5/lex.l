@@ -54,3 +54,13 @@ int main() {
 int yywrap(){
     return 1;
 }
+
+/*
+flex lex.l
+gcc lex.yy.c  -o dec_to_hex
+./dec_to_hex
+> 10 (press enter)
+> 59 (press enter)
+
+(Ctrl + D)
+*/

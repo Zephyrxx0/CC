@@ -19,6 +19,12 @@ int yywrap(){
     return 1;
 }
 
+/*
+flex lex.l
+gcc lex.yy.c  -o count
+./count
+ > Apple ball ant ancient doll
 
-
+(Ctrl + D)
+*/
 

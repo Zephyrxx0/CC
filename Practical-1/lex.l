@@ -12,3 +12,12 @@ int main()
     yylex();
     return 0;
 }
+
+/*
+flex lex.l
+gcc lex.yy.c  -o numbers
+./numbers
+> one  ( output -> 1)
+> two ( output -> 2)
+(Ctrl + D)
+*/
